@@ -2,7 +2,7 @@ module AttrSequence
   module Version
     Major       = 1
     Minor       = 0
-    Revision    = 0
+    Revision    = 1
     Prerelease  = nil
     Compact     = [Major, Minor, Revision, Prerelease].compact.join('.')
     Summary     = "AttrSequence v#{Compact}"
